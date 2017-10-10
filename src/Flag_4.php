@@ -2,9 +2,6 @@
 
 namespace Tuider\Flags;
 
-require_once "Flag.php";
-require_once "FlagInterface.php";
-
 class Flag_4 extends Flag implements FlagInterface {
     private $height;
     private $length;
