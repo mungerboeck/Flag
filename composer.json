@@ -1,0 +1,13 @@
+{
+    "name": "tuider/flags",
+    "description": "Flag creation and calculation for a HTL3R project",
+    "type": "library",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Nico Tuider",
+            "email": "3515@htl.rennweg.at"
+        }
+    ],
+    "require": {}
+}
