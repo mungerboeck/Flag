@@ -1,5 +1,7 @@
 <?php
 
+namespace Tuider\Flags;
+
 /**
  * Class Flag
  * Class representing a single Flag with specific properties

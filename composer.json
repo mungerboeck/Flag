@@ -9,5 +9,11 @@
             "email": "3515@htl.rennweg.at"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tuider\\Flags\\": "src/"
+        }
+    }
+
 }
