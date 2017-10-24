@@ -2,28 +2,28 @@
 
 namespace Tuider\Flags;
 
-class Flag_3 extends Flag implements FlagInterface {
-    private $base;
+class Flag_Rectangle extends Flag implements FlagInterface {
     private $height;
+    private $length;
 
     /**
-     * Flag_3 constructor.
+     * Flag_Rectangle constructor.
      * @param string $bezeichnung
      * @param string $farbe
-     * @param int $base
      * @param int $height
+     * @param int $length
      */
-    public function __construct(string $bezeichnung, string $farbe, int $base, int $height)
+    public function __construct(string $bezeichnung, string $farbe, int $height, int $length)
     {
         parent::__construct($bezeichnung, $farbe);
-        $this->base = $base;
         $this->height = $height;
+        $this->length = $length;
     }
 
     /**
      * @return float
      */
     public function getArea():float{
-        return 0.5*$this->base*$this->height;
+        return $this->height*$this->length;
     }
 }

@@ -6,7 +6,7 @@ class Flag_Circle extends Flag implements FlagInterface {
     private $radius;
 
     /**
-     * Flag_4 constructor.
+     * Flag_Rectangle constructor.
      * @param string $bezeichnung
      * @param string $farbe
      * @param int $radius
