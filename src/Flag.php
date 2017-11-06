@@ -1,6 +1,6 @@
 <?php
 
-namespace Tuider\Flags;
+namespace Ungerboeck\Flags;
 
 /**
  * Class Flag

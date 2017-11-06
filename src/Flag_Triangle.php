@@ -1,6 +1,6 @@
 <?php
 
-namespace Tuider\Flags;
+namespace Ungerboeck\Flags;
 
 class Flag_Triangle extends Flag implements FlagInterface {
     private $base;

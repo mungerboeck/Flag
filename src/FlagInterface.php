@@ -1,6 +1,6 @@
 <?php
 
-namespace Tuider\Flags;
+namespace Ungerboeck\Flags;
 
 interface FlagInterface {
     public function getArea() : float;
